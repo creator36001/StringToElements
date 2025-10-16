@@ -1,0 +1,5 @@
+int main() {
+Element MyElement(1,"hyrogen","H");
+    
+
+}

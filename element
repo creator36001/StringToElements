@@ -1,0 +1,15 @@
+#include <string>
+class Element{
+    public:
+        int atomicNumber;
+        std::string atomName;
+        std::string atomAbr;
+
+            Element(int AN,std::string ANa,std::string ABr) : atomicNumber(AN), atomName(ANa), atomAbr(ABr)
+
+    void GetANumber(){
+        return atomicNumber;
+    }
+    
+
+};
